@@ -7,7 +7,7 @@
 //
 
 #import "LRQViewController.h"
-
+#import "LRQRedView.h"
 @interface LRQViewController ()
 
 @end
@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    LRQRedView * red = [[LRQRedView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:red];
 }
 
 - (void)didReceiveMemoryWarning
