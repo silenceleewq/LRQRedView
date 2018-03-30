@@ -22,6 +22,8 @@
     [self.view addSubview:l];
     
     l.frame = CGRectZero;
+    
+    l.layer.shadowColor = [UIColor whiteColor].CGColor;
 }
 
 - (void)didReceiveMemoryWarning {
