@@ -20,6 +20,8 @@
     //add comment....
     LRQRedView *l = [LRQRedView new];
     [self.view addSubview:l];
+    
+    l.frame = CGRectZero;
 }
 
 - (void)didReceiveMemoryWarning {

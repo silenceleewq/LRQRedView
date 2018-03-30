@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LRQRedView'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A redview pod.'
   s.description      = <<-DESC
                       A very beautiful View. you can create a red view without assign the attribute of UIView's backgroundColor. fantasy!
