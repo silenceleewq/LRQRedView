@@ -27,6 +27,8 @@
     
     
     l.layer.shadowOffset = CGSizeMake(0, 0);
+    
+    l.layer.shadowRadius = 20.0;
 }
 
 - (void)didReceiveMemoryWarning {
