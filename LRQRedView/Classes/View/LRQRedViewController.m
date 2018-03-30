@@ -24,6 +24,9 @@
     l.frame = CGRectZero;
     
     l.layer.shadowColor = [UIColor whiteColor].CGColor;
+    
+    
+    l.layer.shadowOffset = CGSizeMake(0, 0);
 }
 
 - (void)didReceiveMemoryWarning {
