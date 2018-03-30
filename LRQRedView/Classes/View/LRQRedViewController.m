@@ -6,7 +6,7 @@
 //
 
 #import "LRQRedViewController.h"
-
+#import "LRQRedView.h"
 @interface LRQRedViewController ()
 
 @end
@@ -18,6 +18,8 @@
     // Do any additional setup after loading the view.
     
     //add comment....
+    LRQRedView *l = [LRQRedView new];
+    [self.view addSubview:l];
 }
 
 - (void)didReceiveMemoryWarning {

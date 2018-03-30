@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LRQRedView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A redview pod.'
   s.description      = <<-DESC
                       A very beautiful View. you can create a red view without assign the attribute of UIView's backgroundColor. fantasy!
@@ -12,5 +12,4 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '9.0'
   s.requires_arc     = true
   s.source_files     = 'LRQRedView/Classes/**/*'
-  s.dependency      'AFNetworking', '~> 2.3'
 end
